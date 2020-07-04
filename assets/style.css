@@ -26,11 +26,13 @@ main{
 .carousel-indicators{
     position: absolute;
     top: -50px;
+    bottom: 175px;
 }
 
 .display{
     background-image: url(./triangular.png);
     position: fixed;
+    padding-top: 30px;
     top: 0;
     bottom: -50px;
     right: 0;
@@ -46,10 +48,16 @@ main{
     width: 75%;
 }
 
+.h2{
+    font-size: 24px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .btn-secondary-style{
     margin-top: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 100%;
     padding-top: 2px;
     padding-bottom: 4px;
 }
