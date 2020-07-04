@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // Activate Carousel
-    $("#JS30").carousel({ interval: 7000 });
+    $("#JS30").carousel({ interval: false });
 
     // Enable Carousel Indicators
     $(".item1").click(function () {

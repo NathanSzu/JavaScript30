@@ -7,8 +7,14 @@ main{
     padding: 0px;
 }
 
-.carousel-pic{
+.carousel-pic-wrapper{
+    float: left;
     width: 32%;
+    margin-left: 1%;
+}
+.carousel-pic{
+    width: 100%;
+    border-radius: 5px;
 }
 
 .carousel-wrapper{
@@ -38,6 +44,14 @@ main{
     background-color: white;
     padding: 15px;
     width: 75%;
+}
+
+.btn-secondary-style{
+    margin-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 4px;
 }
 
 @media screen and (max-width: 760px){
