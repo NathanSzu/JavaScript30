@@ -5,7 +5,12 @@
 }
 
 .carousel-pic{
-    width: 33%;
+    width: 32%;
+}
+
+.carousel-wrapper{
+    padding: auto;
+    text-align: center;
 }
 
 .carousel-indicators{
